@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -123,6 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Cola.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaEnlazada.h" />
+    <ClInclude Include="Pila.h" />
+    <ClInclude Include="PilaEnlazada.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="ListaEnlazada.cpp" />
+    <ClCompile Include="mainCola.cpp" />
+    <ClCompile Include="mainLista.cpp" />
+    <ClCompile Include="mainListaEnlazada.cpp" />
+    <ClCompile Include="mainPila.cpp" />
+    <ClCompile Include="mainPilaEnlazada.cpp" />
+    <ClCompile Include="Pila.cpp" />
+    <ClCompile Include="PilaEnlazada.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
