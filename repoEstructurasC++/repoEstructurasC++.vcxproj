@@ -124,20 +124,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cola.h" />
+    <ClInclude Include="ColaEnlazada.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaDobleEnlzCirc.h" />
     <ClInclude Include="ListaEnlazada.h" />
     <ClInclude Include="Pila.h" />
     <ClInclude Include="PilaEnlazada.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="ColaEnlazada.cpp" />
     <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="ListaDobleEnlzCirc.cpp" />
     <ClCompile Include="ListaEnlazada.cpp" />
     <ClCompile Include="mainCola.cpp" />
+    <ClCompile Include="mainColaEnlazadacpp.cpp" />
     <ClCompile Include="mainLista.cpp" />
+    <ClCompile Include="mainListaDobleEnlzCirc.cpp" />
     <ClCompile Include="mainListaEnlazada.cpp" />
     <ClCompile Include="mainPila.cpp" />
     <ClCompile Include="mainPilaEnlazada.cpp" />
+    <ClCompile Include="NodoDoble.cpp" />
     <ClCompile Include="Pila.cpp" />
     <ClCompile Include="PilaEnlazada.cpp" />
   </ItemGroup>
